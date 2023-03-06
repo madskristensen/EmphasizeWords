@@ -15,7 +15,7 @@
 
     <!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
-    <Buttons>
+    <!--<Buttons>
       <Button guid="BionicReading" id="MyCommand" priority="0x0100" type="Button">
         <Parent guid="BionicReading" id="MyMenuGroup" />
         <Icon guid="ImageCatalogGuid" id="StatusInformation" />
@@ -25,7 +25,7 @@
           <LocCanonicalName>.BionicReading.MyCommand</LocCanonicalName>
         </Strings>
       </Button>
-    </Buttons>
+    </Buttons>-->
   </Commands>
 
   <Symbols>

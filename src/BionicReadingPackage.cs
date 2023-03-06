@@ -1,13 +1,7 @@
-﻿global using Community.VisualStudio.Toolkit;
-
+﻿global using System;
+global using Community.VisualStudio.Toolkit;
 global using Microsoft.VisualStudio.Shell;
-
-global using System;
-
-global using Task = System.Threading.Tasks.Task;
-
 using System.Runtime.InteropServices;
-using System.Threading;
 
 namespace BionicReading
 {
@@ -18,9 +12,9 @@ namespace BionicReading
     [ProvideOptionPage(typeof(OptionsProvider.GeneralOptions), Vsix.Name, "General", 0, 0, true, SupportsProfiles = true)]
     public sealed class BionicReadingPackage : ToolkitPackage
     {
-        protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
-        {
-            await this.RegisterCommandsAsync();
-        }
+        //protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
+        //{
+        //    await this.RegisterCommandsAsync();
+        //}
     }
 }
