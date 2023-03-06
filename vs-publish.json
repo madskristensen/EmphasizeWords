@@ -6,7 +6,22 @@
     "tags": [ "accessibility", "a11y", "adhd" ]
   },
   "assetFiles": [
-
+    {
+      "pathOnDisk": "art/csharp.png",
+      "targetPath": "art/csharp.png"
+    },
+    {
+      "pathOnDisk": "art/proto.png",
+      "targetPath": "art/proto.png"
+    },
+    {
+      "pathOnDisk": "art/json.png",
+      "targetPath": "art/json.png"
+    },
+    {
+      "pathOnDisk": "art/markdown.png",
+      "targetPath": "art/markdown.png"
+    }
   ],
   "overview": "README.md",
   "publisher": "MadsKristensen",

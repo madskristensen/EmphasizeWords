@@ -10,6 +10,32 @@ Download this extension from the [Visual Studio Marketplace][marketplace]
 or get the [CI build][vsixgallery].
 
 ----------------------------------------
+## What is Bionic Reading?
+Bionic reading is a newly developed reading method designed to aid 
+in the speed reading process through a couple of tweaks. 
+
+The method was recently invented by a Swiss developer called 
+Renato Casuut and he claims that by guiding your eyes through 
+“fixation points”, your reading speed and level of comprehension 
+are going to be improved. What this actually means is that through 
+bionic reading, you are actually reading a text where several 
+letters are written in bold in every word. 
+
+[Read more about Bionic Reading](https://basmo.app/bionic-reading/)
+
+## Screenshots of Bionic Reading in Visual Studio
+
+### Markdown
+![markdown](art/markdown.png)
+
+### C# 
+![C#](art/csharp.png)
+
+### Proto
+![proto](art/proto.png)
+
+### JSON
+![json](art/json.png)
 
 
 ## How can I help?
