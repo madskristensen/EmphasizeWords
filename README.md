@@ -1,10 +1,10 @@
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BionicReading
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EmphasizeWords
 [vsixgallery]: http://vsixgallery.com/extension/BionicReading.5fc630d9-8214-4730-b3e7-60d50c1eaa1b/
-[repo]:https://github.com/madskristensen/BionicReading
+[repo]:https://github.com/madskristensen/EmphasizeWords
 
-# Bionic Reading for Visual Studio
+# Emphasize Words for Visual Studio
 
-[![Build](https://github.com/madskristensen/BionicReading/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/BionicReading/actions/workflows/build.yaml)
+[![Build](https://github.com/madskristensen/EmphasizeWords/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/EmphasizeWords/actions/workflows/build.yaml)
 
 Download this extension from the [Visual Studio Marketplace][marketplace]
 or get the [CI build][vsixgallery].
@@ -23,7 +23,7 @@ letters are written in bold in every word.
 
 [Read more about Bionic Reading](https://basmo.app/bionic-reading/)
 
-## Screenshots of Bionic Reading in Visual Studio
+## Screenshots of Emphasize Words in Visual Studio
 
 ### Markdown
 ![markdown](art/markdown.png)
