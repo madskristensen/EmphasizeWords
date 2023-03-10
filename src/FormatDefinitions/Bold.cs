@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.Text.Classification;
 using Microsoft.VisualStudio.Utilities;
 
-namespace BionicReading
+namespace EmphasizeWords
 {
     [ClassificationType(ClassificationTypeNames = Name)]
     [Export(typeof(EditorFormatDefinition))]
@@ -11,7 +11,7 @@ namespace BionicReading
     [UserVisible(true)]
     public class Bold : ClassificationFormatDefinition
     {
-        public const string Name = "Bionic Bold";
+        public const string Name = "Emphasize Words Bold";
 
         [Export(typeof(ClassificationTypeDefinition))]
         [Name(Name)]

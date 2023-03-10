@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace BionicReading
+namespace EmphasizeWords
 {
     internal partial class OptionsProvider
     {
@@ -19,7 +19,7 @@ namespace BionicReading
 
         [Category("General")]
         [DisplayName("Enabled")]
-        [Description("Controls if the Bionic Reading mode is enabled or not..")]
+        [Description("Controls if the Emphasize Words mode is enabled or not..")]
         [DefaultValue(true)]
         public bool Enabled { get; set; } = true;
     }

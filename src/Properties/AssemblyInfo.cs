@@ -1,4 +1,4 @@
-﻿using BionicReading;
+﻿using EmphasizeWords;
 
 using System.Reflection;
 using System.Runtime.InteropServices;

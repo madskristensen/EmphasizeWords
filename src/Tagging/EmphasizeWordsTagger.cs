@@ -4,9 +4,9 @@ using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Classification;
 using Microsoft.VisualStudio.Text.Tagging;
 
-namespace BionicReading.Tagging
+namespace EmphasizeWords.Tagging
 {
-    internal class BionicTagger : ITagger<ClassificationTag>
+    internal class EmphasizeWordsTagger : ITagger<ClassificationTag>
     {
         private static readonly Regex _words = new(@"(_|\b|#|-)([\p{L}]+)\b", RegexOptions.Compiled);
         private static readonly Regex _capitalWords = new(@"(?<!^)(?=[A-Z])", RegexOptions.Compiled);
@@ -14,7 +14,7 @@ namespace BionicReading.Tagging
         private readonly bool _isEnabled;
         private readonly IClassificationType _classification;
 
-        public BionicTagger(IClassificationTypeRegistryService classificationRegistry)
+        public EmphasizeWordsTagger(IClassificationTypeRegistryService classificationRegistry)
         {
             _classification = classificationRegistry.GetClassificationType(Bold.Name);
             _percent = General.Instance.PercentageOfWord;
